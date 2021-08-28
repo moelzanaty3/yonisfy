@@ -4,28 +4,27 @@ module.exports = {
     defaultTitle: `Mohammed Elzanaty Frontend Docs`,
     siteTitleShort: `Mohammed Elzanaty Frontend Docs`,
     siteDescription: `The boat you need to get into your dreams`,
-    siteUrl: `https://rocketdocs.netlify.app`,
+    siteUrl: ``,
     siteAuthor: `@mohammedelzanaty`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
     basePath: `/`,
-    footer: "Made with ❤️ by Mohammed Elzanaty © 2021",
+    footer: 'Made with ❤️ by Mohammed Elzanaty © 2021',
     social: {
       linkedin: `https://www.linkedin.com/in/mohammedelzanaty129/`,
-      youtube: `https://www.youtube.com/c/mohammedelzanatyacademy`,
-    },
+      youtube: `https://www.youtube.com/c/mohammedelzanatyacademy`
+    }
   },
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
-    "gatsby-plugin-dark-mode",
+    'gatsby-plugin-dark-mode',
     {
       resolve: `@rocketseat/gatsby-theme-docs`,
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/rocketseat/gatsby-themes`,
-        baseDir: `examples/gatsby-theme-docs`,
-      },
+        repositoryUrl: `https://github.com/mohammedelzanaty/younisfy`
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -35,8 +34,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
-        icon: `static/favicon.png`,
-      },
+        icon: `static/favicon.png`
+      }
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-fontawesome-css`,
@@ -56,9 +55,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
-      },
+        siteUrl: ``
+      }
     },
-    `gatsby-plugin-offline`,
-  ],
-};
+    `gatsby-plugin-offline`
+  ]
+}
