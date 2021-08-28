@@ -61,15 +61,25 @@ body ::selection {
 
 .theme-toggle {
   position: fixed;
-  top: 1.2rem;
-  right: 2rem;
+  right: 0.5rem;
+  top: 1.8rem;
   cursor: pointer;
   color: var(--primaryText);
 }
 
-.footer-module--footer {
-  font-size: 0.8rem;
+.footer-module--footer p {
+  font-size: 14px;
   margin-top: 2rem;
   color: var(--header);
   text-align: center;
+}
+
+@media screen  and (min-width: 500px){
+  .theme-toggle {
+    right: 2rem;
+    top: 1.2rem;
+  }
+  .footer-module--footer p {
+    font-size: 16rem;
+  }
 }

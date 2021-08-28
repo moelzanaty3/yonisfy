@@ -45,12 +45,12 @@ module.exports = {
     //     trackingId: `YOUR_ANALYTICS_ID`,
     //   },
     // },
-    // {
-    //   resolve: `gatsby-plugin-google-adsense`,
-    //   options: {
-    //     publisherId: `ca-pub-xxxxxxxxxx`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-1126202017236279`
+      }
+    },
     `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
