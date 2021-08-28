@@ -1,7 +1,7 @@
-name: Gatsby Publish
+name: Deploy Younisfy to GitHub Pages
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
