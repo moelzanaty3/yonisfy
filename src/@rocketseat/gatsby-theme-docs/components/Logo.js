@@ -1,0 +1,28 @@
+import React from "react";
+import mohammedElzanatyLogoDark from "../assets/logo-dark.png";
+import mohammedElzanatyLogoLight from "../assets/logo-light.png";
+import { ThemeContext } from "./Layout/styles";
+
+/**
+ * @description   Main Logo Component
+ */
+
+const Logo = () => {
+  const theme = React.useContext(ThemeContext);
+  return (
+    <div className="brand">
+      <img
+        src={
+          theme === "light"
+            ? mohammedElzanatyLogoLight
+            : mohammedElzanatyLogoDark
+        }
+        alt="mohammed elzanaty logo"
+        style={{ width: 80 }}
+      />
+      Younesify
+    </div>
+  );
+};
+
+export default Logo;
