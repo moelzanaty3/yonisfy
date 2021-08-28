@@ -42,7 +42,7 @@
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "deploy": "npm run build && gh-pages -d public",
-    "start": "gatsby develop",
+    "start": "gatsby develop -o",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'"
