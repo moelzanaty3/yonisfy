@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/younisfy',
   siteMetadata: {
     siteTitle: `Mohammed Elzanaty Frontend Docs`,
     defaultTitle: `Mohammed Elzanaty Frontend Docs`,

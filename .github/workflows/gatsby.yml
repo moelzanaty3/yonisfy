@@ -15,8 +15,8 @@ jobs:
         run: |
           npm install
           npm run deploy
-      - name: Deploy site to gh-pages branch
-        uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
-        with:
-          repo-token: ${{ secrets.ACCESS_TOKEN_1 }}
-          site-directory: public
+      # - name: Deploy site to gh-pages branch
+      #   uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+      #   with:
+      #     repo-token: ${{ secrets.ACCESS_TOKEN_1 }}
+      #     site-directory: public

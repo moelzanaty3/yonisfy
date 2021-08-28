@@ -40,8 +40,8 @@
     "mohammed elzanaty udacity"
   ],
   "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b main",
+    "build": "gatsby build --prefix-paths",
+    "deploy": "npm run build && gh-pages -d public",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
