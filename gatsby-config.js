@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `Mohammed Elzanaty Frontend Docs`,
     siteTitleShort: `Mohammed Elzanaty Frontend Docs`,
     siteDescription: `The boat you need to get into your dreams`,
-    siteUrl: ``,
+    siteUrl: `https://mohammedelzanaty.github.io/younisfy/`,
     siteAuthor: `@mohammedelzanaty`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
@@ -55,7 +55,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: ``
+        siteUrl: `https://mohammedelzanaty.github.io/younisfy/`
       }
     },
     `gatsby-plugin-offline`
