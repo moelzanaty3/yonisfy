@@ -1,5 +1,5 @@
 {
-  "name": "mohammed-elzanaty-docs",
+  "name": "younisfy",
   "private": true,
   "version": "0.0.1",
   "description": "the boat you need to get into your dreams",
@@ -41,7 +41,7 @@
   ],
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "deploy": "npm run build && gh-pages -d public",
+    "deploy": "npm run clean && npm run build && gh-pages -d public",
     "start": "gatsby develop -o",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
