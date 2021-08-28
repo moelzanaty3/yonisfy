@@ -12,7 +12,7 @@ const Logo = () => {
   return (
     <div className="brand">
       <img
-        src={theme === 'light' ? mohammedElzanatyLogoLight : mohammedElzanatyLogoDark}
+        src={theme === 'dark' ? mohammedElzanatyLogoLight : mohammedElzanatyLogoDark}
         alt="mohammed elzanaty logo"
         style={{ width: 80 }}
       />

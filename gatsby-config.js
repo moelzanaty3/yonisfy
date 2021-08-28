@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Mohammed Elzanaty Frontend Docs`,
-    defaultTitle: `Mohammed Elzanaty Frontend Docs`,
-    siteTitleShort: `Mohammed Elzanaty Frontend Docs`,
+    siteTitle: `Younisfy Mohammed Elzanaty Frontend Docs`,
+    defaultTitle: `Younisfy Mohammed Elzanaty Frontend Docs`,
+    siteTitleShort: `Younisfy Mohammed Elzanaty Frontend Docs`,
     siteDescription: `The boat you need to get into your dreams`,
     siteUrl: `https://mohammedelzanaty.github.io/younisfy/`,
     siteAuthor: `@mohammedelzanaty`,
@@ -29,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Mohammed Elzanaty Frontend Docs`,
-        short_name: `Mohammed Elzanaty Frontend Doc`,
+        name: `Younisfy Mohammed Elzanaty Frontend Docs`,
+        short_name: `Younisfy Mohammed Elzanaty Frontend Doc`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,

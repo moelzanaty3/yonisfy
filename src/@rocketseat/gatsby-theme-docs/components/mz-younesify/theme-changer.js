@@ -12,10 +12,10 @@ export default ({ setTheme }) => (
           style={{ color: theme === "light" ? "black" : "white" }}
           onClick={() => {
             if (theme === "light") {
-              setTheme("light");
+              setTheme("dark");
               toggleTheme("dark");
             } else {
-              setTheme("dark");
+              setTheme("light");
               toggleTheme("light");
             }
           }}

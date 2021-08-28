@@ -47,7 +47,7 @@ body.dark {
 
 body ::selection {
   background: var(--textLink);
-  color: #fff;
+  color: var(--pink);
 }
 
 .brand {
