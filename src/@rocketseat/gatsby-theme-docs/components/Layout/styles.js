@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import React from "react";
 import ThemeChanger from "../mz-younesify/theme-changer";
+import AdSense from 'react-adsense'
 
 const ContainerInner = styled.div`
   width: 100%;
@@ -15,35 +16,42 @@ const ContainerInner = styled.div`
     padding: 24px;
     grid-template-columns: 100%;
   }
-`;
+`
 const ExtraUtilsContainer = styled.div`
   position: fixed;
   z-index: 10;
   right: 0;
   top: 0;
-`;
+`
 
-export const ThemeContext = React.createContext("light");
+export const ThemeContext = React.createContext('light')
 
 // shadowing:
 export const Container = (props) => {
-  const [theme, setTheme] = React.useState("dark");
+  const [theme, setTheme] = React.useState('dark')
   return (
     <>
       <ContainerInner>
         <ExtraUtilsContainer>
           <ThemeChanger setTheme={setTheme} />
         </ExtraUtilsContainer>
-        <ThemeContext.Provider value={theme}>
-          {props.children}
-        </ThemeContext.Provider>
+        <ThemeContext.Provider value={theme}>{props.children}</ThemeContext.Provider>
       </ContainerInner>
+      <AdSense.Google
+        client="ca-pub-1126202017236279"
+        slot="3229125651"
+        style={{ display: 'block' }}
+        format="auto"
+        responsive="true"
+        layoutKey="-gw-1+2a-9x+5c"
+        responsive="true"
+      />
       <footer className="footer-module--footer">
         <p>Made with ❤️ &nbsp; by Mohammed Elzanaty © 2021</p>
       </footer>
     </>
-  );
-};
+  )
+}
 
 export const Main = styled.main`
   height: 100%;

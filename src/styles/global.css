@@ -80,6 +80,11 @@ body ::selection {
     top: 1.2rem;
   }
   .footer-module--footer p {
-    font-size: 16rem;
+    font-size: 16px;
   }
+}
+
+.adsbygoogle {
+  margin: 0 auto;
+  text-align: center;
 }
