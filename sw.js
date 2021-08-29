@@ -27,48 +27,67 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8e5f4b44206ca72ec371.js"
+    "url": "webpack-runtime-d8af279ee9e4de62bebf.js"
   },
   {
-    "url": "framework-fa3bcb256d65326faed3.js"
+    "url": "framework-8090a89e0c5ce4ab488f.js"
   },
   {
-    "url": "styles.1a1e2610e4dcb36fd855.css"
+    "url": "styles.6c988873e2029b5c66cc.css"
   },
   {
-    "url": "f0e45107-27ab1e6f0a49d7fd3724.js"
+    "url": "styles-e0138f7b275ab07a0d4b.js"
   },
   {
-    "url": "app-6732003e46c8d4ad0de3.js"
+    "url": "29107295-bf0a3bc0d5d1e857a23d.js"
+  },
+  {
+    "url": "app-ffb3f5edb8a9d90c5eb4.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "eb7e6ee2fc99bdcab428f5ceb03a20e9"
+    "revision": "7b28db2aa4d9bc959f1b067d5e66f1f8"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-df0a224087bdef25ebb5.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-26fb50e6a1208b9d7b44.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "5e8aa44d3ccef647b6cd8af56cc5d638"
+    "revision": "8b294f7d99a61a7544d416dc6c55ff77"
+  },
+  {
+    "url": "page-data/sq/d/12478684.json",
+    "revision": "c1db4c9b1c7a42038040a902e2a890d8"
+  },
+  {
+    "url": "page-data/sq/d/2882937274.json",
+    "revision": "2d08741ea66451d6470a45e325b0ae96"
+  },
+  {
+    "url": "page-data/sq/d/353167761.json",
+    "revision": "814d4eaa6b9f2182d7ea83d785082bd0"
+  },
+  {
+    "url": "page-data/sq/d/4106624947.json",
+    "revision": "4b5a8925876d500c776322024efa3b29"
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "391ccb6d5e219383ec93d19aa1e91d4b"
+    "revision": "a8845fb221923103eca5baa2768e2176"
   },
   {
-    "url": "polyfill-7d6fe133eb91bae9df69.js"
+    "url": "polyfill-85169373d0c623dff7aa.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "2f9faa97d163579ea2f3a3a851aa8cab"
+    "revision": "039e55e20641f43313c7c0bf9bdbb2e6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|avif|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
@@ -153,7 +172,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/yonisfy/app-6732003e46c8d4ad0de3.js`))) {
+  if (!resources || !(await caches.match(`/yonisfy/app-ffb3f5edb8a9d90c5eb4.js`))) {
     return await fetch(event.request)
   }
 
@@ -175,3 +194,11 @@ workbox.routing.registerRoute(navigationRoute)
 
 // this route is used when performing a non-navigation request (e.g. fetch)
 workbox.routing.registerRoute(/\/.gatsby-plugin-offline:.+/, handleAPIRequest)
+
+/* eslint-disable no-undef */
+workbox.routing.registerRoute(
+  new RegExp('https:.*min.(css|js)'),
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: 'cdn-cache',
+  })
+);
