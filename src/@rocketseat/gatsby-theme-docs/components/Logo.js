@@ -16,7 +16,7 @@ const Logo = () => {
         alt="mohammed elzanaty logo"
         style={{ width: 80 }}
       />
-      Younisfy
+      Yonisfy
     </div>
   )
 };

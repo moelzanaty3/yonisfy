@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Younisfy Mohammed Elzanaty Frontend Docs`,
-    defaultTitle: `Younisfy Mohammed Elzanaty Frontend Docs`,
-    siteTitleShort: `Younisfy Mohammed Elzanaty Frontend Docs`,
+    siteTitle: `Yonisfy Mohammed Elzanaty Frontend Docs`,
+    defaultTitle: `Yonisfy Mohammed Elzanaty Frontend Docs`,
+    siteTitleShort: `Yonisfy Mohammed Elzanaty Frontend Docs`,
     siteDescription: `The boat you need to get into your dreams`,
-    siteUrl: `https://mohammedelzanaty.github.io/younisfy/`,
+    siteUrl: `https://mohammedelzanaty.github.io/yonisfy/`,
     siteAuthor: `@mohammedelzanaty`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
@@ -23,14 +23,14 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/mohammedelzanaty/younisfy`
+        repositoryUrl: `https://github.com/mohammedelzanaty/yonisfy`
       }
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Younisfy Mohammed Elzanaty Frontend Docs`,
-        short_name: `Younisfy Mohammed Elzanaty Frontend Doc`,
+        name: `Yonisfy Mohammed Elzanaty Frontend Docs`,
+        short_name: `Yonisfy Mohammed Elzanaty Frontend Doc`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -42,8 +42,8 @@ module.exports = {
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
-    //     trackingId: `YOUR_ANALYTICS_ID`,
-    //   },
+    //     trackingId: `G-L2Q3XQ6K9E`
+    //   }
     // },
     {
       resolve: `gatsby-plugin-google-adsense`,
@@ -55,10 +55,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://mohammedelzanaty.github.io/younisfy/`
+        siteUrl: `https://mohammedelzanaty.github.io/yonisfy/`
       }
     },
     `gatsby-plugin-offline`
   ],
-  pathPrefix: '/younisfy'
+  pathPrefix: '/yonisfy'
 }

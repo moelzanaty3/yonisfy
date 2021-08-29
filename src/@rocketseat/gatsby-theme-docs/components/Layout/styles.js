@@ -43,8 +43,6 @@ export const Container = (props) => {
         style={{ display: 'block' }}
         format="auto"
         responsive="true"
-        layoutKey="-gw-1+2a-9x+5c"
-        responsive="true"
       />
       <footer className="footer-module--footer">
         <p>Made with ❤️ &nbsp; by Mohammed Elzanaty © 2021</p>
