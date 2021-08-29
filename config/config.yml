@@ -1,0 +1,93 @@
+metadata:
+  name: Yonisfy
+  short_name: Yonisfy
+  description: mohammed elzanaty
+  language: en
+  url: 'https://mohammedelzanaty.github.io/yonisfy/'
+  pathPrefix: /yonisfy
+  gaTrackingId: null
+  favicon: /assets/favicon.png
+  themeColor: '#0066cc'
+header:
+  enabled: true
+  logo: /assets/logo.png
+  links: []
+sidebar:
+  groups:
+      - order: 1
+        path: "/gettingstarted"
+        title: ":rocket: Getting Started"
+      - order: 2
+        path: "/configuration"
+        title: ":wrench: Configuration"
+      - order: 3
+        path: "/editing"
+        title: ":writing_hand: Editing Content"
+      - order: 4
+        path: "/deployment"
+        title: ":rocket: Deployment"
+      - order: 5
+        path: "/developing"
+        title: ":computer: Developing"
+  ignoreIndex: false
+  forcedNavOrder: []
+  expanded: []
+  links: []
+  poweredBy:
+    trademark: "/assets/gatsby.png"
+    name: GatsbyJS
+    link: https://www.gatsbyjs.org
+  enabled: true
+pwa:
+  enabled: true
+  manifest:
+    icon: /assets/logo-dark.png
+    display: minimal-ui
+    crossOrigin: anonymous
+social:
+  github: 'https://github.com/mohammedelzanaty'
+  linkedin: 'https://www.linkedin.com/in/mohammedelzanaty129/'
+  mail: mohammedelzanaty129@gmail.com
+  twitter: 'https://twitter.com/mohammdelzanaty'
+  youtube: 'https://www.youtube.com/c/mohammedelzanatyacademy'
+features:
+  editOnRepo:
+    editable: true
+    location: 'https://github.com/mohammedelzanaty/yonisfy.git'
+    type: github
+  rss:
+    enabled: false
+    showIcon: true
+    copyright: ''
+    categories: []
+    matchRegex: ^/
+    outputPath: /rss.xml
+  darkMode:
+    enabled: true
+    default: false
+  scrollTop: true
+  search:
+    enabled: true
+    algoliaAppId: null
+    algoliaSearchKey: null
+    algoliaAdminKey: null
+    engine: localsearch
+    localSearchEngine: balance
+    placeholder: Search here...
+    pagination:
+      enabled: true
+      totalPages: 10
+      showNext: true
+      showPrevious: true
+  showMetadata: true
+  toc:
+    show: true
+    depth: 4
+  fullScreenMode: 
+    enabled: true
+    hideHeader: true
+    hideToc: true
+    hideSidebar: true
+  previousNext:
+    enabled: true
+    arrowKeyNavigation: true

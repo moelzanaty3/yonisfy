@@ -1,4 +1,4 @@
-# 📄 Info
+# ![logo](static/assets/logo-dark.png) Yonisfy
 
 ---
 
