@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up/sidebar</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up/features</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up/pwa</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up/header</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up/base</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up/full_example</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/rich_content/snippets</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/themes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/developing/running_locally</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/developing/building</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/rich_content/graphs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/introduction</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/rich_content/custom_components</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/rich_content/embed</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/rich_content</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/rich_content/emojis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/rich_content/abbreviations</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/images</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/page_config</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/gettingstarted/quickstart</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/editing/markdown</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/gettingstarted/page_structure</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/gettingstarted/cli</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/gettingstarted/concepts</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/my-path-to-learn/path/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/udacity/projects/would-you-rather</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/interview-questions/job-title/frontend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/udacity/projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/udacity/plagiarism</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/udacity/certificate-secret</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/my-path-to-learn/path</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/interview-questions/job-title</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/general</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/frontend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/backend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/configuration/setting-up/search</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/info/who-am-i</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/backend/node-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/frontend/react-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/general/webpack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
