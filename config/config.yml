@@ -50,7 +50,7 @@ social:
 features:
   editOnRepo:
     editable: true
-    location: 'https://github.com/mohammedelzanaty/yonisfy.git'
+    location: 'https://github.com/mohammedelzanaty/yonisfy'
     type: github
   rss:
     enabled: false
