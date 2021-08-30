@@ -8,7 +8,7 @@ module.exports = {
         "pathPrefix": "/yonisfy",
         "gaTrackingId": null,
         "siteImage": null,
-        "favicon": "/assets/favicon.png",
+        "favicon": "/assets/favicon.ico",
         "themeColor": "#0066cc"
     },
     "header": {
@@ -26,36 +26,32 @@ module.exports = {
         "groups": [
             {
                 "order": 1,
-                "path": "/gettingstarted",
-                "title": ":rocket: Getting Started"
+                "path": "/components",
+                "title": ":hammer_and_wrench: Components"
             },
             {
                 "order": 2,
-                "path": "/configuration",
-                "title": ":wrench: Configuration"
+                "path": "/udacity",
+                "title": "☕️ Udacity"
             },
             {
                 "order": 3,
-                "path": "/editing",
-                "title": ":writing_hand: Editing Content"
+                "path": "/interview-questions",
+                "title": ":rocket: Interviews"
             },
             {
                 "order": 4,
-                "path": "/deployment",
-                "title": ":rocket: Deployment"
+                "path": "/my-path-to-learn",
+                "title": ":railway_track: Road Map"
             },
             {
                 "order": 5,
-                "path": "/developing",
-                "title": ":computer: Developing"
+                "path": "/info",
+                "title": "🇪🇬 Info"
             }
         ],
         "links": [],
-        "poweredBy": {
-            "trademark": "/assets/gatsby.png",
-            "name": "GatsbyJS",
-            "link": "https://www.gatsbyjs.org"
-        }
+        "poweredBy": {}
     },
     "pwa": {
         "manifest": {
