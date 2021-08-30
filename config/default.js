@@ -1,7 +1,7 @@
 module.exports = {
   metadata: {
-    name: "BooGi",
-    short_name: "BooGi",
+    name: "Yonisfy",
+    short_name: "Yonisfy",
     description: "",
     language: "en",
     url: "http://localhost",
@@ -30,8 +30,8 @@ module.exports = {
   pwa: {
     enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
-      name: "BooGi",
-      short_name: "BooGi",
+      name: "Yonisfy",
+      short_name: "Yonisfy",
       start_url: "/",
       background_color: "#6b37bf",
       theme_color: "#6b37bf",
@@ -55,7 +55,7 @@ module.exports = {
   features: {
     editOnRepo: {
       editable: true,
-      location: "https://github.com/filipowm/boogi",
+      location: "https://github.com/mohammedelzanaty/Yonisfy",
       type: "github",
     },
     search: {
