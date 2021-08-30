@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "29107295-bf0a3bc0d5d1e857a23d.js"
   },
   {
-    "url": "app-02594d7af8001af6b141.js"
+    "url": "app-0b6a9da1651df5d07f98.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0a66ce7939b24c5821e3b0921cb9ea73"
+    "revision": "87da13e840247540d1ae190bb03bec57"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-26fb50e6a1208b9d7b44.js"
@@ -57,11 +57,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/12478684.json",
-    "revision": "67eb6be4f0f40381c85284bc76b8ecaa"
+    "revision": "5b726e8026b66e457bfea49554d2fdfe"
   },
   {
     "url": "page-data/sq/d/2882937274.json",
-    "revision": "d5b19c0884bbdbbff48abe06741bcf1b"
+    "revision": "12a8019f1472f856f7f0ffe7c6c4647d"
   },
   {
     "url": "page-data/sq/d/353167761.json",
@@ -69,18 +69,18 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/4106624947.json",
-    "revision": "3dafcb1d31fc1eb68ff2656f9fef8842"
+    "revision": "7c46d45ff6cd792ef865a86f70ead87b"
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "fbb317e1a65b6549e5feffdf26acd0cf"
+    "revision": "f8fc357134c8698de653c420252c6180"
   },
   {
     "url": "polyfill-85169373d0c623dff7aa.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "039e55e20641f43313c7c0bf9bdbb2e6"
+    "revision": "314f9c05c349a8a3f48abcb6bdb2b57e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -172,7 +172,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/yonisfy/app-02594d7af8001af6b141.js`))) {
+  if (!resources || !(await caches.match(`/yonisfy/app-0b6a9da1651df5d07f98.js`))) {
     return await fetch(event.request)
   }
 
