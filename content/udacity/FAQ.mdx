@@ -1,0 +1,112 @@
+---
+title: "FAQ"
+showMetadata: true
+editable: true
+showToc: true
+order: 4
+tocDepth: 3
+---
+
+## ReactJS
+
+## Redux
+
+## Webpack
+
+<Tip>
+  All of wepback question created by{" "}
+  <a href="https://www.linkedin.com/in/hossamabubakr/" target="_blank">Hossam Abubakr</a> ©
+</Tip>
+
+🏷️ **I am getting mismatch errors when I try to install sass-loader for the project?**
+
+✨ Downgrade `sass-loader` as it depends on a newer version of webpack using `npm install sass-loader@10.0.3`
+
+\_\_
+
+🏷️ **I am very confused, which API should I use? We have two available.?**
+
+✨  You will be using the MeaningCloud API.
+
+\_\_
+
+
+🏷️ **Which endpoint will I be using? MeaningCloud has a lot!?**
+
+✨ Use `https://api.meaningcloud.com/sentiment-2.1?key=YOUR_API_KEY&url=YOUR_URL&lang=en`
+
+\_\_
+
+🏷️ **What exactly do I need to parse into the DOM from the API? There's a lot of data!?**
+
+✨ There are no requirements when it comes to which data to show, so do as much as you like but I suggest, at a bare-minimum showing 3 sentiments.
+
+\_\_
+
+🏷️ **I am getting the error Cannot find module 'webpack/bin/config-yargs' when I try to build my project?**
+
+✨ The behavior of webpack was changed in version 5 and if you installed the latest version of webpack/webpack CLI it will cause issues with the configuration mentioned in the course in this case all you have to do is to change `"build-dev": "webpack-dev-server` To `"build-dev": "webpack serve ` 
+
+\_\_
+
+🏷️ **What is the best approach to tackle this project??**
+
+✨ Follow the videos and work on the sample project until the end of the lessons then you will be able to copy all of that work into the starter project covering 90% of the requirements.
+
+\_\_
+
+🏷️ **I don't know how to add an event listener to my submit button?**
+
+✨ You can follow the example project you worked on following the videos, it follows the same simple logic, use
+
+```json
+output: {
+  libraryTarget: "var",
+  library: "Client",
+},
+```
+
+to bundle your javascript into a library then referencing it in your HTML as such
+`onclick="return Client.handleSubmit(event)"`
+
+\_\_
+
+🏷️ **I feel lost and I don't know where to start? I feel overwhelmed!?**
+
+✨ First of all there is no need to worry, you still have plenty of time, for start you should use the starter project provided by Udacity as it will give you a good based to start off
+
+\_\_
+
+🏷️ **I am having issues cloning the starter project repo and / or I am not sure which folder is for the starter project?**
+
+✨ The repo is available here and the project you are looking to build on is called evaluate-news-nlp
+
+\_\_
+
+🏷️ **I made it far into the project but I am unable to make fetch requests in the server I am getting ReferenceError: fetch is not defined?**
+
+✨ Node doesn’t support native fetch so you will have to use a package such as node-fetch or axios to make your fetch calls, they are very easy to use and have excellent documentation
+
+\_\_
+
+🏷️ **I am getting regeneratorRuntime is not defined error how do I fix this??**
+
+✨ Add import `'babel-polyfill'` at the top of your jest test file.
+
+\_\_
+
+🏷️ **I don't understand the difference between development mode and production mode!?**
+
+✨ 1.Production mode creates a dist(distribution) folder that contains the optimized version of your website that's ready to be uploaded to your server.
+2.Development mode runs your website on a node server and allows you to make live changes to your website (without having to rebuild each time)
+
+\_\_
+
+🏷️ **I don't know how to switch between development mode and production mode?**
+
+✨ You create two webpack configuration files for each mode which can be run using
+
+1. `npm run build-prod` for production mode
+2. `npm run build-dev` for development mode
+
+\_\_
