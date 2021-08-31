@@ -40,12 +40,12 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
 
-          <script
+          {/* <script
             data-ad-client="ca-pub-1126202017236279"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> */}
         </body>
       </html>
     );
