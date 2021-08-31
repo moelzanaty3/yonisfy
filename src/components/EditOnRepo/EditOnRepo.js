@@ -76,7 +76,7 @@ const rootDir = 'content';
 const EditOnRepo = ({ repoType, branch, location, path }) => {
   let icon = null;
   let link = `${location}/${path}`;
-  let text = 'Edit on ';
+  let text = "Contribute on ";
   switch (repoType.toLowerCase()) {
     case 'gitlab':
       icon = require('images/gitlab.svg');
