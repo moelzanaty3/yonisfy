@@ -1,0 +1,277 @@
+---
+title: "State Management (hooks)"
+showMetadata: true
+editable: true
+showToc: true
+order: 1
+tocDepth: 3
+---
+
+## State Management
+
+In React, state refers to a structure that keeps track of how data changes over time in your application.
+
+The state is an instance of React Component Class can be defined as an object of a set of observable properties that control the behavior of the component. In other words, the State of a component is an object that holds some information that may change over the lifetime of the component.
+
+### State Types
+
+Let's know first [What are the types of State in React](http://jamesknelson.com/5-types-react-application-state/)
+
+<iframe
+  width="100%"
+  height="600"
+  src="https://www.youtube.com/embed/vBE3j2PBTGU"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+I think it will be a better idea after knowing the types of state is to know how to manage it. I will make a simple counter app and build it with different state management logic here's the [starter code sandbox](https://codesandbox.io/s/state-management-starter-code-y7ke2) 💻 to be able to play with it
+
+### Class-Based State
+
+I need from you to think of the state as `plain object` which contain the some data. when a state property is `updated`, React `re-renders` the component accordingly.
+
+In class components, there are two ways to initialize state:-
+
+1. **Constructor function**
+
+   - it's regular functions introduced in ES6, but there’s a common agreement to name them with capital letter first
+   - it's the first function called in a class when it is first instantiated
+   - when a new object is created from the class. Initializing the state within the constructor function allows the state object to be created before React renders the component.
+
+   ```javascript
+   class ClassComponent extends Component {
+     constructor(props) {
+       super(props);
+       this.state = {
+         count: 0,
+       };
+     }
+     // ...
+   }
+   ```
+
+2. **Class property**
+   - This enables defining class properties for your JavaScript classes. This can be particularly useful for React components. It combats messy things like binding event handlers in the constructor 🤢 u can read more about it from [here](https://codeburst.io/use-class-properties-to-clean-up-your-classes-and-react-components-93185879f688)
+
+Both approaches net the same output so it all just comes down to preference. I’ll be sticking with the constructor function approach in our example. simply I need to create a simple counter with the ability to increment, decrement and reset. we will start basically by defining the `state` object with simple `count` property in the constructor function
+
+```javascript
+//...
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0,
+    };
+  }
+  //...
+}
+```
+
+the above snippet maily tell react that we have property cause re-rendering every time it changes. so the question now is how we can change it what's the trigger.. as you say we need to define `click` handler to change. Don't worry i will do this for you and attached it to the buttons
+
+```javascript
+//..
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
+
++  increment() {
++    this.setState({ count: state.count + 1 })
++  }
+
++  decrement () {
++    this.setState({ count: this.state.count - 1 });
++  };
+
++ reset() {
++    this.setState({ count: 0 });
++  }
+
+  render() {
++    const { count } = this.state;
+    return (
+      <div className="App">
+        <header className="App-header">State Management Starter Code</header>
+        <main>
++         <p className="count">{count}</p>
+          <div className="controls">
++            <button className="primary" onClick={this.increment}>Increment</button>
++            <button className="danger" onClick={this.decrement}>Decrement</button>
++            <button className="info" onClick={this.reset}>Reset</button>
+          </div>
+        </main>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+now every thing is good and sounds fine but if you try to press any button nothing will happen and you will get errors in the console and there's a reason for `this`, as you say it's `this` this is the problem. if you not familar with `this` in javascript I make a [video](https://www.youtube.com/watch?v=w3ZwgdgCigM&t=1459s) about it watch it now 😉 ... I am waiting you here don't worry
+
+so now we need to overcome of the problem of binding a function to a component instance and this can be done by four different ways
+
+```javascript
+//..
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
++    // 1. Bind in Constructor (ES2015)
++    this.reset = this.reset.bind(this);
+  }
+
+  increment() {
+    this.setState({ count: state.count + 1 })
+  }
+
++  // 2. Class Properties (Stage 3 Proposal)
++  decrement = () => {
+    this.setState({ count: this.state.count - 1 });
+  };
+
+ reset() {
+    this.setState({ count: 0 });
+  }
+
+  render() {
+    const { count } = this.state;
+    return (
+      <div className="App">
+        <header className="App-header">State Management Starter Code</header>
+        <main>
+         <p className="count">{count}</p>
+          <div className="controls">
++           {/* 3. Bind in Render */}
++           <button className="primary" onClick={this.increment.bind(this)}>Increment</button>
+            <button className="danger" onClick={this.decrement}>Decrement</button>
+            <button className="info" onClick={this.reset}>Reset</button>
++           {/* 4. Arrow Function in Render */}
++           {/*<button className="primary" onClick={() => this.increment()}>Increment</button>*/}
+          </div>
+        </main>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+I see now it's working and you are happy, u can [read more](https://reactjs.org/docs/faq-functions.html) but 
+there's also something I need from you to pay attention to which is **asynchronicity** of `setState` function for example:-
+
+```javascript
+//...
+ increment() {
+    this.setState({ count: this.state.count + 1 });
+    this.setState({ count: this.state.count + 1 });
+    this.setState({ count: this.state.count + 1 });
+    this.setState({ count: this.state.count + 1 });
+}
+//...
+```
+
+in the above example the `count -> 1` because react will queuing up state changes, and will batch them up then efficiently make that changes so underneath it will be something like
+
+```javascript
+Object.assign(
+  {},
+  yourFirstCallToSetState,
+  yourSecondCallToSetState,
+  yourThirdCallToSetState,
+  yourFourthCallToSetState
+);
+```
+
+which result merge them all and **the last one win**
+
+one more thing we need to pay attention to that traditionally we pass `an object` to `setState` but we can pass other things like `function` and that function has some arguments the first one will be `state` and return an object with the new state, one more important think I need to hight here if we do the same multiple `setState` but with `function` version the result will be different
+
+```javascript
+//...
+ increment() {
+    this.setState(state => { return { count: state.count + 1 } });
+    this.setState(state => { return { count: state.count + 1 } });
+    this.setState(state => { return { count: state.count + 1 } });
+    this.setState(state => { return { count: state.count + 1 } });
+}
+//...
+```
+
+in the above example the `count -> 4` because in this case react will not merge them like `objects` I know you can compose it but it's not the case don't be cleaver 😄 but function will give us the ability to add **condition** for example like
+
+```javascript
+//...
+ increment() {
+    let max = 5;
+    this.setState((state) => {
+      if (state.count >= max) return;
+      return { count: state.count + 1 };
+    });
+//...
+```
+
+that's cool ha, but there's a situations u might need to do something after the state is updated. fortunately the react provide a solution for this situation by passing a callback function as second argument for `setState` method
+
+```javascript
+//...
+increment() {
+    let max = 5;
+    this.setState(
+      (state) => {
+        if (state.count >= max) return;
+        return { count: state.count + 1 };
+      },
+      () => {
+        console.log("After!", this.state); // Count - 1
+      }
+    );
+    console.log("Before!", this.state); // Count - 0
+}
+//...
+```
+
+<Info>
+  ❓ Now after you understand how the use <strong>setState</strong> it's time to
+  do some work{" "}
+</Info>
+
+```markdown
+I need to update the title of the document everytime the state changes. even in increment, decrement or reset
+
+// hint: use document.title
+```
+
+💻 🔥 🧨 [This sandbox represents where are we](https://codesandbox.io/s/state-management-class-based-state-g306h)
+
+### Hooks State
+
+There is nothing so far 👨🏻‍💻 Coming Soon 🤌🏻 🤷🏻‍♂️
+
+### Reducers
+
+There is nothing so far 👨🏻‍💻 Coming Soon 🤌🏻 🤷🏻‍♂️
+
+### Context
+
+There is nothing so far 👨🏻‍💻 Coming Soon 🤌🏻 🤷🏻‍♂️
+
+### Data Fetching
+
+There is nothing so far 👨🏻‍💻 Coming Soon 🤌🏻 🤷🏻‍♂️
+
+### Thunks
+
+There is nothing so far 👨🏻‍💻 Coming Soon 🤌🏻 🤷🏻‍♂️
