@@ -22,9 +22,7 @@
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/deploy-your-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/warmup-react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/protected-route</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/hooks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/error-boundaries</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/react-dev-tool</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/react-router</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/redux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -34,4 +32,6 @@
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/javascript/promise</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/general</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/interview-questions/job-title</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/state-managment</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
