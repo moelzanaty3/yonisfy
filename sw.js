@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-07b5293fd175e407dff8.js"
+    "url": "webpack-runtime-4a21ad4395ba08f87e87.js"
   },
   {
     "url": "framework-8090a89e0c5ce4ab488f.js"
@@ -39,14 +39,14 @@ self.__precacheManifest = [
     "url": "styles-e0138f7b275ab07a0d4b.js"
   },
   {
-    "url": "29107295-bf0a3bc0d5d1e857a23d.js"
+    "url": "29107295-fde7e47ac65d28974594.js"
   },
   {
-    "url": "app-2b25785ed79a88a2e624.js"
+    "url": "app-48d6df11132ab58b4740.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "c4f4965bea30ac7f47502f67f2734b10"
+    "revision": "7b799947d41f0c00a16f6eace2ecd4f8"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-26fb50e6a1208b9d7b44.js"
@@ -57,11 +57,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/12478684.json",
-    "revision": "d59ac87786460a9b9da36455a750e1f0"
+    "revision": "1145d11c3c59bc7c1be8d4fc35c767e9"
   },
   {
     "url": "page-data/sq/d/2882937274.json",
-    "revision": "6639b033bd9b5c060c3d234bba96bc32"
+    "revision": "2137c170ab067e1eedbdd61439c207d9"
   },
   {
     "url": "page-data/sq/d/353167761.json",
@@ -69,11 +69,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/4106624947.json",
-    "revision": "e260fe72213d749d017c62a3b9911409"
+    "revision": "90462d42dde841ceac8dab99d7b38fb6"
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "7ba790c0292cfa13aaa81b63c5ae17d2"
+    "revision": "8cc73332331680dcd9f2a8c583897c2f"
   },
   {
     "url": "polyfill-85169373d0c623dff7aa.js"
@@ -172,7 +172,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/yonisfy/app-2b25785ed79a88a2e624.js`))) {
+  if (!resources || !(await caches.match(`/yonisfy/app-48d6df11132ab58b4740.js`))) {
     return await fetch(event.request)
   }
 
