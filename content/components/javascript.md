@@ -5,8 +5,8 @@ order: 2
 
 In **Javascript** Section you will find all you need to know about:-
 
-🌳 [NPM](/components/javascript/npm)
+🌳 [NPM](./npm)
 
-🌳 [Promise](/components/javascript/webpack)
+🌳 [Promise](./webpack)
 
-🌳 [Webpack 5](/components/javascript/promise)
+🌳 [Webpack 5](./promise)
