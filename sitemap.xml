@@ -18,10 +18,8 @@
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/udacity/style-guide/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/interview-questions/job-title</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/interview-questions/job-title/frontend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/html-css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/general</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/info/who-am-i</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/warmup-react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/deploy-your-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/reactjs/error-boundaries</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -38,4 +36,6 @@
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/general/code-quality</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/html-css/css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/html-css/html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mohammedelzanaty.github.io/yonisfy/yonisfy/components/html-css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
