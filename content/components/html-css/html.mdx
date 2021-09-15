@@ -163,99 +163,6 @@ While there are many tools that can help you keep code quality high.
   <strong>editor.formatOnSave</strong> to true.
 </Tip>
 
-## Block and Inline Elements
-
-Every HTML element has a default display value, depending on what type of element it is.
-
-There are two display values: block and inline.
-
-### Block-level Elements
-
-- always starts on a new line
-- takes up the full width available 
-- has a top and a bottom margin
-
-Here are the block-level elements in HTML:
-
-```plaintext
-<address> <article>   <aside>     <blockquote>  <canvas>  <dd>  <div>     <dl>    <dt>
-
-<fieldset>  <figcaption>    <figure>  <footer>      <form>    <h1>-<h6>   <header>
-
-<hr>    <li>      <main>  <nav>   <noscript>  <ol>  <p> <pre> <section> <table>     <tfoot>   <ul>      <video>
-```
-
-### Inline Elements
-
-- **not** start on a new line.
-- element only takes up as much width as necessary.
-- **not** has a top and a bottom margin
-
-Here are the inline-level elements in HTML:
-
-```plaintext
-<a> <abbr>  <acronym> <b> <bdo> <big> <br>    <button>    <cite>    <code>
-
-<dfn> <em>  <i> <img> <input> <kbd> <label> <map> <object>  <output>  <q>
-
-<samp>  <script>  <select>  <small> <span>  <strong>  <sub> <sup> <textarea>  <time>< tt> <var>
-```
-
-The `<div>` element is a block-level and is often used as a container for other HTML elements
-
-The `<span>` element is an inline container used to mark up a part of a text, or a part of a document
-
-### Inline Block Elements
-
-it's hybrid type of elements which act as `inline` elements with the characteristecs of `block` element i mean i can set to 
-the element `height` `padding`, etc... and there's two elements act as `inline-block` 
-
-**img** element, **button** element
-
-## Semantic
-
-Semantic elements = elements with a meaning. so **What are Semantic Elements?**
-
-> A semantic element clearly describes its meaning to both the browser and the developer.
-
-Examples of **non-semantic elements**: `<div>` and `<span>` - Tells nothing about its content.
-
-Examples of **semantic elements**: `<nav>`, `<main>`, and `<section>` - Clearly defines its content.
-
-```html
-<!-- old -->
-<div class="header"></div>
-<div class="nav"></div>
-<div class="section">
-  <h2>Heading</h2>
-
-  <p>I luv <span class="highlight">teaching</span></p>
-  <p>I need to learn HTML at Learning Day</p>
-  <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli">
-</div>
-<div class="footer"></div>
-
-<!-- with semantic -->
-<header></header>
-<nav></nav>
-<section>
-  <h2>Heading</h3>
-  <p>I luv <mark>teaching</mark></p>
-  <p>I need to learn HTML at <time datetime="2021-09-14">Learning Day</time>.</p>
-  <figure>
-    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli">
-    <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
-  </figure>
-</section>
-<footer></footer>
-```
-
-The `<figure>` tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
-
-The `<figcaption>` tag defines a caption for a `<figure>` element. 
-The `<figcaption>` element can be placed as the first or as the last child of a `<figure>` element.
-
-The `<img>` element defines the actual image/illustration. 
 
 ## The Head Tag
 
@@ -372,30 +279,55 @@ The text written under `<b>` tag makes **the text bold presentationally to draw 
 The main difference between these two tag is that the `<strong>` tag **semantically emphasizes on the important word or section of words**
 while the bold tag is just offset text conventionally styled in bold.
 
-## Entities
 
-[HTML Entities](https://www.w3schools.com/html/html_entities.asp) is a reserved characters in HTML must be replaced with character entities.
+## Block and Inline Elements
 
-Some characters are reserved in HTML. so If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+Every HTML element has a default display value, depending on what type of element it is.
 
-for example if we need to render in the string `now <HTML /> seems easy` if we try to write this sentence as
-html code the code editor will mix it up and understand it as a tag to because `<` or `>` is reserved characters
-to sove this issue we use HTML Entities so the HTML will like
+There are two display values: block and inline.
 
-```html
-now &lt;HTML/&gt; seems easy &copy;
+### Block-level Elements
+
+- always starts on a new line
+- takes up the full width available 
+- has a top and a bottom margin
+
+Here are the block-level elements in HTML:
+
+```plaintext
+<address> <article>   <aside>     <blockquote>  <canvas>  <dd>  <div>     <dl>    <dt>
+
+<fieldset>  <figcaption>    <figure>  <footer>      <form>    <h1>-<h6>   <header>
+
+<hr>    <li>      <main>  <nav>   <noscript>  <ol>  <p> <pre> <section> <table>     <tfoot>   <ul>      <video>
 ```
 
-the abole code will be
+### Inline Elements
 
-<p>now &lt;HTML/&gt; seems easy &copy;</p>
+- **not** start on a new line.
+- element only takes up as much width as necessary.
+- **not** has a top and a bottom margin
 
-in simple words we can say `entity` is a piece of text that begin with `&` and ends with `;`
+Here are the inline-level elements in HTML:
 
-<Tip>
-  Complete <a href="https://dev.w3.org/html5/html-author/charref">List</a> of
-  them, Don't hesitate to take a look
-</Tip>
+```plaintext
+<a> <abbr>  <acronym> <b> <bdo> <big> <br>    <button>    <cite>    <code>
+
+<dfn> <em>  <i> <img> <input> <kbd> <label> <map> <object>  <output>  <q>
+
+<samp>  <script>  <select>  <small> <span>  <strong>  <sub> <sup> <textarea>  <time>< tt> <var>
+```
+
+The `<div>` element is a block-level and is often used as a container for other HTML elements
+
+The `<span>` element is an inline container used to mark up a part of a text, or a part of a document
+
+### Inline Block Elements
+
+it's hybrid type of elements which act as `inline` elements with the characteristecs of `block` element i mean i can set to 
+the element `height` `padding`, etc... and there's two elements act as `inline-block` 
+
+**img** element, **button** element
 
 ## Hyperlinks
 
@@ -792,6 +724,32 @@ The `<input type="file">` defines a file-select field and a "Browse" button for 
 - The `height` and `width` attributes specifies the size of the iframe
 - Use `border:none;` to remove the border around the iframe
 
+
+## Entities
+
+[HTML Entities](https://www.w3schools.com/html/html_entities.asp) is a reserved characters in HTML must be replaced with character entities.
+
+Some characters are reserved in HTML. so If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+
+for example if we need to render in the string `now <HTML /> seems easy` if we try to write this sentence as
+html code the code editor will mix it up and understand it as a tag to because `<` or `>` is reserved characters
+to sove this issue we use HTML Entities so the HTML will like
+
+```html
+now &lt;HTML/&gt; seems easy &copy;
+```
+
+the abole code will be
+
+<p>now &lt;HTML/&gt; seems easy &copy;</p>
+
+in simple words we can say `entity` is a piece of text that begin with `&` and ends with `;`
+
+<Tip>
+  Complete <a href="https://dev.w3.org/html5/html-author/charref">List</a> of
+  them, Don't hesitate to take a look
+</Tip>
+
 ## HTML Comment Tags
 
 [HTML comments](https://www.w3schools.com/html/html_comments.asp) are not displayed in the browser, but they can help document your HTML source code.
@@ -799,6 +757,51 @@ The `<input type="file">` defines a file-select field and a "Browse" button for 
 ```html
 <!-- Write your comments here -->
 ```
+
+## Semantic
+
+Semantic elements = elements with a meaning. so **What are Semantic Elements?**
+
+> A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of **non-semantic elements**: `<div>` and `<span>` - Tells nothing about its content.
+
+Examples of **semantic elements**: `<nav>`, `<main>`, and `<section>` - Clearly defines its content.
+
+```html
+<!-- old -->
+<div class="header"></div>
+<div class="nav"></div>
+<div class="section">
+  <h2>Heading</h2>
+
+  <p>I luv <span class="highlight">teaching</span></p>
+  <p>I need to learn HTML at Learning Day</p>
+  <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli">
+</div>
+<div class="footer"></div>
+
+<!-- with semantic -->
+<header></header>
+<nav></nav>
+<section>
+  <h2>Heading</h3>
+  <p>I luv <mark>teaching</mark></p>
+  <p>I need to learn HTML at <time datetime="2021-09-14">Learning Day</time>.</p>
+  <figure>
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli">
+    <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+  </figure>
+</section>
+<footer></footer>
+```
+
+The `<figure>` tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+
+The `<figcaption>` tag defines a caption for a `<figure>` element. 
+The `<figcaption>` element can be placed as the first or as the last child of a `<figure>` element.
+
+The `<img>` element defines the actual image/illustration. 
 
 ## Structuring a Web Page
 
