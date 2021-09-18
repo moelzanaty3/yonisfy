@@ -58,7 +58,7 @@ const plugins = [
   {
     resolve: `gatsby-plugin-google-adsense`,
     options: {
-      publisherId: `ca-pub-5493867292940617`,
+      publisherId: `ca-pub-1126202017236279`,
     },
   },
   {
