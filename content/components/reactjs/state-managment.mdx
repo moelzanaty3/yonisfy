@@ -84,7 +84,7 @@ class App extends React.Component {
   }
 
 +  increment() {
-+    this.setState({ count: state.count + 1 })
++    this.setState({ count: this.state.count + 1 })
 +  }
 
 +  decrement () {
@@ -133,7 +133,7 @@ class App extends React.Component {
   }
 
   increment() {
-    this.setState({ count: state.count + 1 })
+    this.setState({ count: this.state.count + 1 })
   }
 
 +  // 2. Class Properties (Stage 3 Proposal)
@@ -202,10 +202,10 @@ one more thing we need to pay attention to that traditionally we pass `an object
 ```javascript
 //...
  increment() {
-    this.setState(state => { return { count: state.count + 1 } });
-    this.setState(state => { return { count: state.count + 1 } });
-    this.setState(state => { return { count: state.count + 1 } });
-    this.setState(state => { return { count: state.count + 1 } });
+    this.setState(prevState => { return { count: prevState.count + 1 } });
+    this.setState(prevState => { return { count: prevState.count + 1 } });
+    this.setState(prevState => { return { count: prevState.count + 1 } });
+    this.setState(prevState => { return { count: prevState.count + 1 } });
 }
 //...
 ```
@@ -216,9 +216,9 @@ in the above example the `count -> 4` because in this case react will not merge 
 //...
  increment() {
     let max = 5;
-    this.setState((state) => {
-      if (state.count >= max) return;
-      return { count: state.count + 1 };
+    this.setState((prevState) => {
+      if (prevState.count >= max) return;
+      return { count: prevState.count + 1 };
     });
 //...
 ```
@@ -230,9 +230,9 @@ that's cool ha, but there's a situations u might need to do something after the 
 increment() {
     let max = 5;
     this.setState(
-      (state) => {
-        if (state.count >= max) return;
-        return { count: state.count + 1 };
+      (prevState) => {
+        if (prevState.count >= max) return;
+        return { count: prevState.count + 1 };
       },
       () => {
         console.log("After!", this.state); // Count - 1
