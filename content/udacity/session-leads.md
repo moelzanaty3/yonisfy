@@ -1,5 +1,5 @@
 ---
-title: "Lectures Material"
+title: "Session Leads"
 showMetadata: true
 editable: true
 showToc: true
@@ -9,7 +9,12 @@ order: 2
 
 <Tip>You can access all the slides for your favorite session lead from <a href="https://drive.google.com/drive/folders/1hkpIITt8iQRrFAZRCiCLN96zj8vkAlY7?usp=sharing">here</a></Tip>
 
-## React
+## Live Coding
+
+
+## Resources
+
+### React
 
 ✨ [What is a library?](https://en.wikipedia.org/wiki/Library_(computing))
 
@@ -68,7 +73,7 @@ order: 2
 
 ✨ [What is React router?](https://www.freecodecamp.org/news/beginner-s-guide-to-react-router-53094349669/)
 
-## Redux
+### Redux
 
 ✨ [Understanding immutability](https://css-tricks.com/understanding-immutability-in-javascript/)
 
@@ -126,7 +131,7 @@ order: 2
 
 ✨ [Redux MapStateToProps](https://react-redux.js.org/using-react-redux/connect-mapstate)
 
-## Webpack
+### Webpack
 
 ✨ [What is a JavaScript module?](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/)
 
