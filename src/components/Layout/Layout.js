@@ -152,7 +152,7 @@ const Layout = ({ children, location }) => {
             {children}
 
             <AdSense.Google
-              client="ca-pub-1126202017236279"
+              client="ca-pub-6216322039390168"
               slot="4112462919"
               style={{ display: "block" }}
               format="auto"
