@@ -79,3 +79,6 @@ The footer is optional and is used to reference issue tracker IDs.
 
     Resolves: #123
     See also: #456, #789
+
+
+Most of the text here provided by 🎭 © [Udacity](https://www.udacity.com/) and I am only adding a little bit chooclate to  make it more tasty and powerfull
