@@ -41,7 +41,7 @@ export default class HTML extends React.Component {
           {this.props.postBodyComponents}
 
           {/* <script
-            data-ad-client="ca-pub-1126202017236279"
+            data-ad-client="ca-pub-7184953078273171"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script>
