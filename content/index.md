@@ -9,7 +9,7 @@ showToc: false
 
 Thanks for being here,I'd like to take the chance to tell you who I am? I am **Yonisfy**,
 I will be your guide, will be your friend, will be your lifesaver,
-will be the one who tells you the secrets about web development. you can <a href="https://discord.gg/stDSkAQ7">join discord</a> to get latest update
+will be the one who tells you the secrets about web development. you can <a href="https://discord.gg/ptXuVCtXxM">join discord</a> to get latest update
 
 ## Why do I exist? :fire:
 
