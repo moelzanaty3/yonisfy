@@ -91,16 +91,16 @@ Before we start at anything u will need to get your hands dirty with concepts yo
 
 ▬ 🔗 Chapters ▬▬▬▬▬▬▬▬▬▬
 
-⌛️ Deployment 101
+⌛️ [00:01:18](https://www.youtube.com/watch?v=ygw0bzauorY&t=78s) Deployment 101
 
     ⌛️  Continuous Integration
     ⌛️  Continuous Delivery 
     ⌛️  Continuous Deployment
     ⌛️  Why CI/CD
 
-⌛️  Circle CI Pre-flight Check 
+⌛️ [00:17:43](https://www.youtube.com/watch?v=ygw0bzauorY&t=1063s) Circle CI Pre-flight Check 
 
-⌛️  Circle CI Basic Concepts 
+⌛️ [00:23:08](https://www.youtube.com/watch?v=ygw0bzauorY&t=1388s) Circle CI Basic Concepts 
 
     ⌛️  Projects 
     ⌛️  Configuration  
@@ -110,5 +110,5 @@ Before we start at anything u will need to get your hands dirty with concepts yo
     ⌛️  Workflows 
     ⌛️  Pipeline 
 
-⌛️  Build React App With Type Script @Netlify using Circle CI 
+⌛️ [00:38:27](https://www.youtube.com/watch?v=ygw0bzauorY&t=2307s) Build React App With Type Script @Netlify using Circle CI 
 
