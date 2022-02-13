@@ -1,10 +1,10 @@
 ---
-title: "Session Leads"
+title: "ReactJS NanoDegree"
 showMetadata: true
 editable: true
 showToc: true
 tocDepth: 3
-order: 2
+order: 1
 ---
 
 <Tip>You can access all the slides for your favorite session lead from <a href="https://drive.google.com/drive/folders/1hkpIITt8iQRrFAZRCiCLN96zj8vkAlY7?usp=sharing">here</a></Tip>

@@ -382,6 +382,43 @@ Create architecture diagrams for an overview of the infrastructure and the pipel
 
 To review the detailed requirements for the project, look at the project [rubric](https://review.udacity.com/#!/rubrics/3070/view).
 
+## Common Problems
+
+
+### Issue 1: Zip not working 
+
+**Problem:**  zip and unzip commands are not existed in windows
+
+**Solution** install [Cygwin](https://www.cygwin.com/) and make sure you select `zip` as it's not default 
+
+### Issue 2: Routing
+Many of us have found their URL not working after including the link to it in their repositories for submitting their project.
+It happened to me, also.
+The reason for this error is that you copy the link of the live site from the browser URL field.
+This makes you copy the link with an extra unneeded `/home`.
+Solution: Just remove the `/home`.
+
+### Issue 3: Testing
+Some of us have experienced errors in deployment when they take testing into their consideration.
+The reason behind this issue might be the configs of karma. `-your-path-to-frontend-/src/karma.conf.js`
+There are no specific configurations to follow. Those who solved this issue played with the following:
+
+```json 
+clearContext
+autoWatch
+singleRun
+```
+
+Try changing their values, and things should run smoothly. [Karam configurations](https://karma-runner.github.io/6.3/config/configuration-file.html)
+
+## Issue 4: SQl
+
+**Problem:** 
+![error](./images/error-sql-hosting-full-stack.png)
+
+**Solution**
+Issue can be fixed by by downgrading sequelize version to `5.3.5` while keeping sequelize-typescript at version `0.6.11`
+
 ## Udacity Style Guides
 
 Although Eslint and Prettier will handle most of your formatting needs, you should write your code and markup to meet the specifications provided in these style guides:
