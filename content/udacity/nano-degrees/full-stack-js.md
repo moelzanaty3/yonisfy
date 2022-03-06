@@ -39,7 +39,10 @@ Before we start at anything u will need to get your hands dirty with concepts yo
 
 1️⃣ Watch my 📹 [Project Walkthrough]() to understand more about what you need exactly to build. 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
 
-2️⃣ This project is the hardest one from my opinion that's why I create the heavy lifting for you by creating one of the project module which is JWT Authentication part, u can watch it as short videos 📹 [via this series of videos](https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD) or through one 📹 [video](https://www.youtube.com/watch?v=pMZ0l_cSAw8&list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD&index=20) here's the content of it
+2️⃣ Read The Guide I made with ❤️ for the project 📜 [Build A Storefront Backend](/udacity/projects/build-store-front-backend)
+
+
+3️⃣ This project is the hardest one from my opinion that's why I create the heavy lifting for you by creating one of the project module which is JWT Authentication part, u can watch it as short videos 📹 [via this series of videos](https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD) or through one 📹 [video](https://www.youtube.com/watch?v=pMZ0l_cSAw8&list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD&index=20) here's the content of it
 
 ▬ 🔗 Chapters ▬▬▬▬▬▬▬▬▬▬
 
