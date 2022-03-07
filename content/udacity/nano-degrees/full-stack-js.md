@@ -13,7 +13,7 @@ order: 0
 
 Before we start at anything u will need to get your hands dirty with concepts you will need a lot in the lessons and don't worry I create a two videos for them
 
-📹  JS Fundamental Concepts (loops, conditionals, arrays, objects, functions 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
+📹  JS Fundamental Concepts (loops, conditionals, arrays, objects, functions) 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
 
 📹  [ES6 Tutorial: Learn Modern JavaScript](https://www.youtube.com/playlist?list=PLLWuK602vNiVnYxkrT7qbFSictc9nJeiX)
 
@@ -37,7 +37,7 @@ Before we start at anything u will need to get your hands dirty with concepts yo
 
 ### Build A Storefront Backend
 
-1️⃣ Watch my 📹 [Project Walkthrough]() to understand more about what you need exactly to build. 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
+1️⃣ Watch my 📹 [Project Walkthrough](https://www.youtube.com/watch?v=dP-5CdnNBSk) to understand more about what you need exactly to build.
 
 2️⃣ Read The Guide I made with ❤️ for the project 📜 [Build A Storefront Backend](/udacity/projects/build-store-front-backend)
 
