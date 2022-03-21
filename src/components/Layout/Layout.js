@@ -163,7 +163,9 @@ const Layout = ({ children, location }) => {
                 <span role="img" aria-label="heart">
                   ❤️
                 </span>{" "}
-                &nbsp; by Mohammed Elzanaty © 2021
+                &nbsp; by <a href="https://www.linkedin.com/in/mohammedelzanaty129/">
+                Mohammed Elzanaty © 2022
+                </a>
               </p>
             </Footer>
           </Content>
