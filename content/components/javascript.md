@@ -7,6 +7,6 @@ In **Javascript** Section you will find all you need to know about:-
 
 🌳 [NPM](./npm)
 
-🌳 [Promise](./webpack)
+🌳 [Promise](./promise)
 
-🌳 [Webpack 5](./promise)
+🌳 [Webpack 5](./webpack)
