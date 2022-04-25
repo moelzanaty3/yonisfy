@@ -1,8 +1,8 @@
 export default {
-  blue: "#6d1cac",
+  blue: "#0088FF",
   blueLight: "#60b5f8",
   blueDark: "#264D99",
-  red: "#6d1cac",
+  red: "#0088FF",
   // redLight: "#FCE7EE",
   redLight: "#FAD0DD",
   violet: "#A05EB5",
