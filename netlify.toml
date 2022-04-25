@@ -2,6 +2,8 @@
   from = "/udacity/nano-degrees/full-stack-js"
   to = "/udacity/full-stack-nano-degree"
   status = 301
+  force = false
+  query = {path = ":path"}
 [build]
   publish = "public"
   command = "gatsby build"
