@@ -21,7 +21,6 @@ Your application needs to be ready for beta tests, so it needs to have tests, ke
 
 Feel free to attempt to create this project based on the overview and [rubric specifications](https://review.udacity.com/#!/rubrics/3061/view). If you get stuck or prefer structured guidance -- here is a walk-through to get you up and running!
 
-
 here's small digram for what's needed to be done
 
 ![Diagram](/images/store-frontend.png)
@@ -89,7 +88,6 @@ Although Eslint and Prettier will handle most of your formatting needs, you shou
 🌳 [JavaScript Style Guide](/udacity/style-guide/javascrpt)
 
 🌳 [Git Guide](/udacity/style-guide/git)
-
 
 > A note on plagiarism: Viewing someone else’s code to get a general idea of implementation, then putting it away and starting to write your own code from scratch is okay. Please do not copy someone's code, in whole or in part. For further details, check out this guide [regarding plagiarism](/udacity/plagiarism).
 

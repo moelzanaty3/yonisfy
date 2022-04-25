@@ -15,20 +15,17 @@ header:
 sidebar:
   groups:
       - order: 1
-        path: "/components"
-        title: ":hammer_and_wrench: Components"
-      - order: 2
         path: "/udacity"
         title: "☕️ Udacity"
+      - order: 2
+        path: "/technologies"
+        title: ":hammer_and_wrench: Technologies"
       - order: 3
         path: "/interview-questions"
         title: ":rocket: Interviews"
       - order: 4
         path: "/my-path-to-learn"
         title: ":railway_track: Road Map"
-      - order: 5
-        path: "/info"
-        title: "🇪🇬 Info"
   ignoreIndex: false
   forcedNavOrder: []
   expanded: []

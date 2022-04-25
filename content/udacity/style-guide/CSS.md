@@ -1,5 +1,5 @@
 ---
-title: "Udacity CSS Style Guide"
+title: "CSS Style Guide"
 showMetadata: true
 editable: true
 showToc: true
@@ -430,6 +430,5 @@ If possible, group style sheet sections together by using comments. Separate sec
 }
 
 ```
-
 
 Most of the text here provided by 🎭 © [Udacity](https://www.udacity.com/) and I am only adding a little bit chooclate to  make it more tasty and powerfull

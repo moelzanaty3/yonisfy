@@ -26,13 +26,13 @@ module.exports = {
         "groups": [
             {
                 "order": 1,
-                "path": "/components",
-                "title": ":hammer_and_wrench: Components"
+                "path": "/udacity",
+                "title": "☕️ Udacity"
             },
             {
                 "order": 2,
-                "path": "/udacity",
-                "title": "☕️ Udacity"
+                "path": "/technologies",
+                "title": ":hammer_and_wrench: Technologies"
             },
             {
                 "order": 3,
@@ -43,11 +43,6 @@ module.exports = {
                 "order": 4,
                 "path": "/my-path-to-learn",
                 "title": ":railway_track: Road Map"
-            },
-            {
-                "order": 5,
-                "path": "/info",
-                "title": "🇪🇬 Info"
             }
         ],
         "links": [],

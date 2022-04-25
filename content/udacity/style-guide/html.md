@@ -1,5 +1,5 @@
 ---
-title: "Udacity HTML Style Guide"
+title: "HTML Style Guide"
 showMetadata: true
 editable: true
 showToc: true
@@ -50,7 +50,6 @@ If using Sublime Text, this can be done automatically each time you save a file 
 "trim_trailing_white_space_on_save": true
 ```
 
-
 ### Indentation
 
 Indentation should be consistent throughout the entire file. Whether you choose to use tabs or spaces, or 2-spaces vs. 4-spaces - just be consistent!
@@ -84,7 +83,6 @@ Highlight todos by using the keyword `TODO` only, not other formats like `@@`. A
     <li>Oranges</li>
 </ul>
 ```
-
 
 HTML Style Rules
 ----------------
@@ -124,7 +122,6 @@ Using valid HTML is a measurable baseline quality that ensures proper HTML usage
     </body>
 </html>
 ```
-
 
 ### Semantics
 

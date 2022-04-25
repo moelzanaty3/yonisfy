@@ -1,16 +1,22 @@
 ---
-title: "ReactJS NanoDegree"
+title: "React NanoDegree"
 showMetadata: true
 editable: true
 showToc: true
 tocDepth: 3
-order: 1
+order: 0
 ---
 
+
+## Projects
+
+1. [My Reads](/udacity/projects/my-reads)
+2. [Would you rather](/udacity/projects/would-you-rather)
+3. [Evaluate News Article with NLP](//udacity/projects/evaluate-news-article-nlp)
+
+## Slides
+
 <Tip>You can access all the slides for your favorite session lead from <a href="https://drive.google.com/drive/folders/1hkpIITt8iQRrFAZRCiCLN96zj8vkAlY7?usp=sharing">here</a></Tip>
-
-## Live Coding
-
 
 ## Resources
 
@@ -37,7 +43,6 @@ order: 1
 ✨ [Reusable Component in React, a practical guide](https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.bitsrc.io%2Freusable-components-in-react-a-practical-guide-ec15a81a4d71)
 
 ✨ [Create React App: Get React Projects Ready Fast](https://www.sitepoint.com/create-react-app/)
-
 
 ✨ [What's JSX?](https://facebook.github.io/jsx/)
 
@@ -96,23 +101,23 @@ order: 1
 ✨ [Redux Tutorial - Learn Redux from Scratch - Mosh Hamedani](https://www.youtube.com/watch?v=poQXNp9ItL4)
 
 ✨ [React Redux Playlist - Codevolution](https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK)
- 
+
 ✨ [Redux Introduction | How Redux works | Redux fundamentals - Techsith](https://www.youtube.com/watch?v=7Erbf5NXQQw)
- 
+
 ✨ [ReactJS + Redux Basics Playlist - Academind](https://www.youtube.com/playlist?list=PL55RiY5tL51rrC3sh8qLiYHqUV3twEYU_)
 
 ✨ [React Redux Tutorial for Beginners: The Complete Guide - Valentino Gagliardi](https://www.valentinog.com/blog/redux/)
- 
+
 ✨ [Redux for Beginners – The Brain-Friendly Guide to Learning Redux - Chris Blakely](https://www.freecodecamp.org/news/redux-for-beginners-the-brain-friendly-guide-to-redux/)
- 
+
 ✨ [Redux: Beginner's guide - Eric The Coder](https://dev.to/ericchapman/redux-beginner-s-guide-208)
- 
+
 ✨ [React Redux Tutorial for Beginners: Simply Explained - Christopher Lis](https://chriscourses.com/blog/redux)
- 
+
 ✨ [How To Manage State in React with Redux - Joe Morgan](https://www.digitalocean.com/community/tutorials/how-to-manage-state-in-react-with-redux)
- 
+
 ✨ [Fundamentals of Redux Course - Dan Abramov (Co-Author of Redux and a React maintainer)](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867)
- 
+
 ✨ [Redux Flow](https://www.tutorialspoint.com/redux/redux_data_flow.htm)
 
 ✨ [Redux Actions](https://www.tutorialspoint.com/redux/redux_actions.htm)
@@ -147,8 +152,7 @@ order: 1
 
 ✨ [What is tree shaking and how it works?](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking)
 
-
-## Contributors
+## Resources Contributors
 
 <Tip>
   © These recourse collected not only be me but with a group of  talented engineers working as session leads @ <a href="https://www.udacity.com/">Udacity</a>. to reach them
@@ -169,5 +173,3 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://www.linkedin.com/in/ahmed-yassin-ibrahim-m-sc-49bb0583/"><img src="https://avatars.githubusercontent.com/u/6499654?v=4" width="100px;" alt=""/><br /><sub><b>Ahmed Ibrahim</b></sub></a><br /><a href="https://github.com/mohammedelzanaty/yonisfy/commits?author=ahmedyassin" title="Code">📖</a></td>
   </tr>
 </table>
-
-
