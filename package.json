@@ -32,6 +32,7 @@
     "@mdx-js/react": "1.6.16",
     "@philpl/buble": "0.19.7",
     "@playlyfe/gql": "2.6.2",
+    "@splitbee/web": "^0.3.0",
     "algoliasearch": "4.4.0",
     "dotenv": "8.2.0",
     "emotion-theming": "10.0.27",
@@ -80,7 +81,6 @@
     "lodash.startcase": "4.4.0",
     "puppeteer": "5.2.1",
     "react": "16.13.1",
-    "sass": "^1.49.0",
     "react-adsense": "^0.1.0",
     "react-collapsible": "^2.8.0",
     "react-dom": "16.13.1",
@@ -96,6 +96,7 @@
     "react-visibility-sensor": "5.1.1",
     "remark-abbr": "1.4.0",
     "remark-emoji": "2.1.0",
+    "sass": "^1.49.0",
     "unist-util-find-after": "3.0.0"
   },
   "license": "MIT",

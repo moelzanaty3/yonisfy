@@ -3,7 +3,14 @@ import PropTypes from "prop-types";
 import config from "config";
 import { scrollbar } from "./styles";
 
+import splitbee from "@splitbee/web";
+
 export default class HTML extends React.Component {
+  componentDidMount() {
+    // This initiliazes Splitbee.js
+    splitbee.init();
+  }
+
   render() {
     return (
       <html {...this.props.htmlAttributes} lang="en">
@@ -29,7 +36,7 @@ export default class HTML extends React.Component {
             />
           ) : null}
           <noscript key="noscript"></noscript>
-          <script async src="https://cdn.splitbee.io/sb.js"></script>
+          {/* <script async src="https://cdn.splitbee.io/sb.js"></script> */}
 
           {this.props.headComponents}
         </head>
