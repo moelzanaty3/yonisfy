@@ -29,6 +29,8 @@ export default class HTML extends React.Component {
             />
           ) : null}
           <noscript key="noscript"></noscript>
+          <script async src="https://cdn.splitbee.io/sb.js"></script>
+
           {this.props.headComponents}
         </head>
         <body css={scrollbar} {...this.props.bodyAttributes}>
