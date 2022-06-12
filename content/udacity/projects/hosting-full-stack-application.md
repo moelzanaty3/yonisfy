@@ -27,11 +27,11 @@ In your Local Machine Instructions ensure you have the following installed:
 
 ## You will have to do the following
 
-### 1️⃣ Download Assets 
+### 1️⃣ Download Assets
 
 You will have the choice of using either a starter project [(GitHub link)](https://github.com/udacity/nd0067-c4-deployment-process-project-starter) or the application created during the course of the Fullstack JavaScript Nanodegree. choose what ever you like
 
-### 2️⃣  Provision AWS services 
+### 2️⃣  Provision AWS services
 
 Provision the necessary AWS services your app needs
 
@@ -76,7 +76,6 @@ The snapshot below shows the fields you choose while creating a MySQL database u
 
 > when creating your RDS instance, make sure you choose to make it publicly accessible (it’s an option that pops up to you when creating the database).
 
-
 By default, if you create an Amazon RDS MySQL database you won’t be able to connect to it unless you specifically whitelist inbound traffic sources.
 
 I will show you step by step in the easiest way possible how to allow an IP to connect to your RDS instance (in other words, open port 3306).
@@ -85,14 +84,13 @@ I will show you step by step in the easiest way possible how to allow an IP to c
 
 ![choose db instance](./images/choose-db-instance.png)
 
-
 **Step 2** Scroll to the `Connectivity & Security` section then find the “VPC Security groups” and click on the active security group link. This will directly redirect you to the security group you need to whitelist the IP address at.
 
 ![choose db instance](./images/secuirty-groups.png)
 
-**Step 3** Make sure the security group that belongs to your RDS database is selected/highlighted. 
+**Step 3** Make sure the security group that belongs to your RDS database is selected/highlighted.
 
-**Step 4** Click on `Inbound Rules` at the bottom. Then click `Edit Inbound Rules`. 
+**Step 4** Click on `Inbound Rules` at the bottom. Then click `Edit Inbound Rules`.
 
 ![inbound rules](./images/inbound-rules.png)
 
@@ -116,10 +114,9 @@ now it's time to test we can use [Postbird](https://www.electronjs.org/apps/post
 
 ![AWS Console Search](https://video.udacity-data.com/topher/2021/January/5ffdd4be_screenshot-2021-01-12-at-10.26.14-pm/screenshot-2021-01-12-at-10.26.14-pm.png)
 
-2. Click on the **Create bucket** button. It will launch a new wizard. 
+2. Click on the **Create bucket** button. It will launch a new wizard.
 
 ![Create Bucket](https://video.udacity-data.com/topher/2020/November/5fbe37ba_screenshot-2020-11-25-at-4.06.17-pm/screenshot-2020-11-25-at-4.06.17-pm.png)
-
 
 3. General configuration
 
@@ -131,7 +128,6 @@ Provide the bucket-name and the region where you want to locate the bucket.
 
 > One of the convenient naming conventions is my-123456789-bucket, where you can replace 123456789 with your 12 digit AWS account ID.
 
-
 > If you create a bucket from GUI you need to make sure that u login with the user u are using to acess from the termainal if it's not the case there's an error will appears for ACLS and we can avoid all this shit by creating the bucket from our termainal
 
 ```bash
@@ -139,6 +135,7 @@ aws s3api create-bucket \
     --bucket my-bucket \
     --region us-east-1
 ```
+
 you can learn more about this from [docs](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)
 
 Now we created the bucket, and later we upload files and folders to it but there's some configuration we need to add to the bucket itself.
@@ -188,7 +185,8 @@ Create a bucket - Make it public and now we need to access bucket details
     ]
 }
 ```
-> Replace `yonisify-udagram` with your bucketname 
+
+> Replace `yonisify-udagram` with your bucketname
 
 ![change-to-public](./images/s3-change-to-public.png)
 
@@ -201,17 +199,17 @@ Create a bucket - Make it public and now we need to access bucket details
 
 ##### 🐻 Upload File/Folders
 
-From the [S3 dashboard](https://s3.console.aws.amazon.com/s3/home), click on the name of the bucket you have created in the step above. and you will find Details of an existing bucket. you can upload now your static files from **upload** button as 
+From the [S3 dashboard](https://s3.console.aws.amazon.com/s3/home), click on the name of the bucket you have created in the step above. and you will find Details of an existing bucket. you can upload now your static files from **upload** button as
 
 ![s3 upload](./images/s3-upload.png)
 
-but most of the times after integration with  **CircleCI** you don't have the luxurious to upload every time from GUI so you need some utility to upload from your `terminal` and this can be handle by for example let's say when we build the project `client side` i mean you will get the build version with a new folder for example called `www` so to deploy this new build to s3 this something can be done by 
+but most of the times after integration with  **CircleCI** you don't have the luxurious to upload every time from GUI so you need some utility to upload from your `terminal` and this can be handle by for example let's say when we build the project `client side` i mean you will get the build version with a new folder for example called `www` so to deploy this new build to s3 this something can be done by
 
 ```bash
-aws s3 cp --recursive --acl public-read ./www s3://yonisify-udagram/
+aws s3 cp --recursive  ./www s3://yonisify-udagram/
 ```
 
-u might get error 
+u might get error
 
 > An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.
 
@@ -219,7 +217,7 @@ in this case the problem is you need to fix the `aws configureation` open your t
 
 ![aws configure](./images/aws-configure.png)
 
-but if you not have one u need to create `IAM` user with `AdministratorAccess` and here's the steps 
+but if you not have one u need to create `IAM` user with `AdministratorAccess` and here's the steps
 
 ![Create Admin Group](./images/create-group-1.png)
 ![Create Admin Group](./images/create-group-2.png)
@@ -242,9 +240,7 @@ now it's time to run the command to upload again please hands up for this time
 ![uploaded files succesffully](./images/files-uploaded.png)
 ![Site working like charm](./images/udgram-uploaded.png)
 
-
-> now it's time for your to have a cup of coffee ☕️  as you done a very cool job till now 
-
+> now it's time for your to have a cup of coffee ☕️  as you done a very cool job till now
 
 #### 🚀  Elastic Beanstalk
 
@@ -256,7 +252,7 @@ let's start by [docs](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/cre
 
 🐻 Create an Elastic Beanstalk environment
 
-Open your termail and make sure u authenticated to aws and everything is fine then open your server directoy 
+Open your termail and make sure u authenticated to aws and everything is fine then open your server directoy
 
 1. Create a repository with the **eb init** command.
 
@@ -276,25 +272,25 @@ This command creates a load-balanced environment with the default settings for t
 
 ![eb Application Details](./images/ebs-create-4.png)
 
-if you open this link now you will see 
+if you open this link now you will see
 
 ![sample preview](./images/ebs-preview-sample.png)
 
-> now it's time for your to have a cup of coffee ☕️  as you done a very cool job till now 
+> now it's time for your to have a cup of coffee ☕️  as you done a very cool job till now
 
-now after createing everything we need to deploy our application on a spcified environment we alread create it let's make sure we are using it by running in rootDir of our server 
+now after createing everything we need to deploy our application on a spcified environment we alread create it let's make sure we are using it by running in rootDir of our server
 
 ```shell
 eb use udagram-api-dev
 ```
 
-now we need to ask our selves a question what we need exactly to deploy mmmmmm 🧐 aha `we need to build our project first and archive what we build and upload it to run it` simple ha so go to rootDir of your server and build the project and archive what we build and this will happen as 
+now we need to ask our selves a question what we need exactly to deploy mmmmmm 🧐 aha `we need to build our project first and archive what we build and upload it to run it` simple ha so go to rootDir of your server and build the project and archive what we build and this will happen as
 
 ![Build Backend](./images/ebs-build.png)
 
-then we need to let the elasticbeanstalk configuration know our intention and where it find the archive folder then deploy then open the link again and this can be done by 
+then we need to let the elasticbeanstalk configuration know our intention and where it find the archive folder then deploy then open the link again and this can be done by
 
-Open `config.yml` in `.elasticbeanstalk` folder and add this 
+Open `config.yml` in `.elasticbeanstalk` folder and add this
 
 ![EBS Configuration](./images/ebs-configuration.png)
 
@@ -308,7 +304,7 @@ Open link to review what's happening and this can be done from terminal BTW
 
 ![EBS Open Error](./images/ebs-open-error.png)
 
-ohhh a problem yes a problem what you expect Sir for sure you will find a problems when you work but no problem my friend I am here for help 
+ohhh a problem yes a problem what you expect Sir for sure you will find a problems when you work but no problem my friend I am here for help
 
 in such cases the only place can save us is `logs` you need to read them and google errors to find the solution and deploy again
 
@@ -318,11 +314,11 @@ in such cases the only place can save us is `logs` you need to read them and goo
 
 ![EBS Log Error](./images/ebs-logs-3.png)
 
-may be you forget to set `environment variables` or something to set them 
+may be you forget to set `environment variables` or something to set them
 
 ![EBS Log Error](./images/ebs-setenv.png)
 
-so now you feel issue is fixed right so make the same steps we did before 
+so now you feel issue is fixed right so make the same steps we did before
 
 1. Build by `npm run build`
 
@@ -331,7 +327,7 @@ so now you feel issue is fixed right so make the same steps we did before
 ![EBS Deploy Agian](./images/ebs-deploy-again.png)
 ![EBS Deploy running](./images/ebs-deploy-again-guid.png)
 
-3. Validate 
+3. Validate
 
 ![EBS Validate](./images/ebs-deploy-validate.png)
 ![EBS Status](./images/ebs-deploy-valide-gui.png)
@@ -346,7 +342,6 @@ Use the eb terminate command to terminate your environment and all of the resour
 
 ![ebs validate from GUI](./images/ebs-terminate-gui.png)
 
-
 <iframe src="https://giphy.com/embed/Y7VSyIgPkYSxG" width="480" height="199" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/will-smith-stay-strong-jaden-Y7VSyIgPkYSxG">via GIPHY</a></p>
 
 ### 3️⃣ Wire your GitHub repo with **CircleCI**
@@ -359,11 +354,9 @@ Configure a **CircleCI** pipeline to automate your deployments
 
 Document the infrastructure needs (**RDS**, **S3** and **Elastic Beanstalk**, etc) and explain the different steps in the pipeline
 
-###  6️⃣ Create architecture diagrams
+### 6️⃣ Create architecture diagrams
 
 Create architecture diagrams for an overview of the infrastructure and the pipeline
-
-
 
 ## Submission Instructions
 
@@ -384,14 +377,14 @@ To review the detailed requirements for the project, look at the project [rubric
 
 ## Common Problems
 
-
-### Issue 1: Zip not working 
+### Issue 1: Zip not working
 
 **Problem:**  zip and unzip commands are not existed in windows
 
-**Solution** install [Cygwin](https://www.cygwin.com/) and make sure you select `zip` as it's not default 
+**Solution** install [Cygwin](https://www.cygwin.com/) and make sure you select `zip` as it's not default
 
 ### Issue 2: Routing
+
 Many of us have found their URL not working after including the link to it in their repositories for submitting their project.
 It happened to me, also.
 The reason for this error is that you copy the link of the live site from the browser URL field.
@@ -399,11 +392,12 @@ This makes you copy the link with an extra unneeded `/home`.
 Solution: Just remove the `/home`.
 
 ### Issue 3: Testing
+
 Some of us have experienced errors in deployment when they take testing into their consideration.
 The reason behind this issue might be the configs of karma. `-your-path-to-frontend-/src/karma.conf.js`
 There are no specific configurations to follow. Those who solved this issue played with the following:
 
-```json 
+```json
 clearContext
 autoWatch
 singleRun
@@ -413,7 +407,7 @@ Try changing their values, and things should run smoothly. [Karam configurations
 
 ### Issue 4: SQl
 
-**Problem:** 
+**Problem:**
 ![error](./images/error-sql-hosting-full-stack.png)
 
 **Solution**
@@ -430,7 +424,6 @@ Although Eslint and Prettier will handle most of your formatting needs, you shou
 🌳 [JavaScript Style Guide](/udacity/style-guide/javascrpt)
 
 🌳 [Git Guide](/udacity/style-guide/git)
-
 
 > A note on plagiarism: Viewing someone else’s code to get a general idea of implementation, then putting it away and starting to write your own code from scratch is okay. Please do not copy someone's code, in whole or in part. For further details, check out this guide [regarding plagiarism](/udacity/plagiarism).
 

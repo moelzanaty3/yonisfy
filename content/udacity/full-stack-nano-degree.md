@@ -19,7 +19,7 @@ Before we start at anything u will need to get your hands dirty with concepts yo
 
 📹  [JavaScript Promises, Async/Await, DOM)](https://www.youtube.com/watch?v=dD5hv6v4d7I)
 
-📹  TypeScript Fundamentals 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
+📹  [TypeScript Fundamentals](https://www.youtube.com/watch?v=zPq9jOsyox0)
 
 📹  Database Fundamentals 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
 
@@ -42,9 +42,9 @@ Before we start at anything u will need to get your hands dirty with concepts yo
 
 1️⃣ Watch my 📹 [Project Walkthrough](https://www.youtube.com/watch?v=3aRXn8KENjM ) to understand more about what you need exactly to build.
 
-2️⃣ Read The Guide I made with ❤️ for the project 📜 [Image Proccessing API](/udacity/projects/image-processing-api)
+2️⃣ Read The Guide I made with ❤️ for the project 📜 [Image Processing API](/udacity/projects/image-processing-api)
 
-3️⃣ 70% of this project are Configure the backend project from scratch and create api endpoint to do some logic and the reset is to integrate with `sharp` api to resize image the good news is I did already the heavy lifting for you 📹 [via series of videos](https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD) and as a bouns from me to show how I care a lot for ur time I create a created a cool tool [npx package] that help you to scaffold the stuff you need in terms of prettier, eslint, basic server, basic jasmine with its configuration [here](https://www.npmjs.com/package/m-zanaty-web-utils)  and 📹 [here's the guide for using it](https://www.youtube.com/watch?v=0KnqGbkBdxw)
+3️⃣ 70% of this project are Configure the backend project from scratch and create api endpoint to do some logic and the reset is to integrate with `sharp` api to resize image the good news is I did already the heavy lifting for you 📹 [via series of videos](https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD) and as a bonus from me to show how I care a lot for ur time I create a created a cool tool [npx package] that help you to scaffold the stuff you need in terms of prettier, eslint, basic server, basic jasmine with its configuration [here](https://www.npmjs.com/package/m-zanaty-web-utils)  and 📹 [here's the guide for using it](https://www.youtube.com/watch?v=0KnqGbkBdxw)
 
 <!-- [![Videos Playlist](/images/image-processing.png)](https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD) -->
 
