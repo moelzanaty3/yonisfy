@@ -103,7 +103,9 @@ order: 0
 
 2️⃣ Read The Guide I made with ❤️ for the project 📜 [Hosting Full Stack App](/udacity/projects/hosting-full-stack-application) in this guide you will find a step by step screenshot for creating the needed resources @ aws wrt `RDS/Elastic Beanstalk/S3`
 
-3️⃣ In the course CI/CD/Circle CI not covered well that's why you need to watch 📹 [the video](https://www.youtube.com/watch?v=ygw0bzauorY) I create first to understand more about
+3️⃣ Life Saver [Video](https://www.youtube.com/watch?v=ribk9c8XGD8) about Hosting Full Stack ReactJS + NodeJS + Postgres using RDS/S3/Elastic Beanstalk
+
+4️⃣ In the course CI/CD/Circle CI not covered well that's why you need to watch 📹 [the video](https://www.youtube.com/watch?v=ygw0bzauorY) I create first to understand more about
 
 <details>
 <summary><strong>▬ 🔗 Chapters ▬▬▬▬▬▬▬▬▬▬</strong></summary>
