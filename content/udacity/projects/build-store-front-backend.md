@@ -58,7 +58,7 @@ this can be done manually or it can be by [starter code](https://github.com/udac
 Before you submit, check if the following have been completed:
 
 1. Filled out `README.md`
-2. Updated `REQUIREMENTS.md` - I build sample for how to [document API](https://github.com/mohammedelzanaty/guide-lines/blob/main/API-documentation-sample.md)
+2. Updated `REQUIREMENTS.md` - I build sample for how to [document API](https://github.com/mohammedelzanaty/store-front/blob/main/REQUIREMENTS.md)
 3. `package.json`
 4. `database.json`
 5. Model Folder
