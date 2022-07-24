@@ -76,7 +76,7 @@ module.exports = {
         "slack": "",
         "twich": "",
         "twitter": "https://twitter.com/mohammdelzanaty",
-        "youtube": "https://www.youtube.com/c/mohammedelzanatyacademy"
+        "youtube": "https://www.youtube.com/c/mohammedelzanatyacademy/join"
     },
     "features": {
         "editOnRepo": {

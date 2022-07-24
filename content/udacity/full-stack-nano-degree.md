@@ -9,7 +9,10 @@ order: 0
 
 <Tip>This is the boat I made with ❤️ love to save you in the Full Stack JS NanoDegree or Advanced Web Development Track as egFwd named it. Now if you ask where I can apply for it to Become a Web Developer Guru <a href="https://egfwd.com/specializtion/advanced-web-development/">here it's</a></Tip>
 
-> Before we start at anything u will need to get your hands dirty with concepts you will need a lot in the lessons and don't worry I created videos you must watch them to understand the concepts.
+
+> 💖 Become a Channel Member: Show support & get perks! 💖 https://www.youtube.com/c/mohammedelzanatyacademy/join
+
+> 🚀 Join Discord - https://discord.com/invite/amsZty2hkM
 
 <details>
 
@@ -17,7 +20,7 @@ order: 0
 
 * 📹  JavaScript Basics 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
 * 📹  [ES6 Tutorial: Learn Modern JavaScript](https://www.youtube.com/playlist?list=PLLWuK602vNiVnYxkrT7qbFSictc9nJeiX)
-* 📹  [JavaScript Promises, Async/Await, DOM)](https://www.youtube.com/watch?v=dD5hv6v4d7I)
+* 📹  [JavaScript Promises, Async/Await, DOM)](https://www.youtube.com/watch?v=rCqnMLbrGsQ)
 * 📹  [TypeScript Fundamentals](https://www.youtube.com/watch?v=zPq9jOsyox0)
 * 📹  Database Fundamentals 🔜 👨🏻‍💻 🤌🏻 🤷🏻‍♂️
 
