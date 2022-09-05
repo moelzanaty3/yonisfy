@@ -375,6 +375,78 @@ Create architecture diagrams for an overview of the infrastructure and the pipel
 
 To review the detailed requirements for the project, look at the project [rubric](https://review.udacity.com/#!/rubrics/3070/view).
 
+### Notes if you are using the [Starter code](https://github.com/udacity/nd0067-c4-deployment-process-project-starter)
+
+### Frontend 
+
+
+  1. make sure to change the `apiHost` in the enivronment files to the api link 
+ ```
+  apiHost: 'http://example.elasticbeanstalk.com/api/v0'
+```
+  2. if you want to run the test in headless mode, you can use 
+```
+"test": "ng test --watch=false --browsers ChromeHeadless",
+```
+### Backend 
+
+
+  1. add these keys to the api config
+```
+accessKeyId : process.env.AWS_ACCESS_KEY_ID,
+secretAccessKey : process.env.AWS_SECRET_ACCESS_KEY
+```
+
+
+  2. make sure to use them in the S3 configuration 
+```
+export const s3 = new AWS.S3({
+  signatureVersion: "v4",
+  region: config.aws_region,
+  params: { Bucket: config.aws_media_bucket },
+  credentials: {
+    accessKeyId:config.accessKeyId,
+    secretAccessKey: config.secretAccessKey
+  }
+});
+```
+
+
+   3. use `eb init` to create `.elasticbeanstalk` configuration 
+```
+branch-defaults:
+  default:
+    environment: ENV_NAME    // Note
+deploy:
+  artifact: www/Archive.zip.  // Note
+environment-defaults:
+  Egfwdudagram-env:
+    branch: null
+    repository: null
+global:
+  application_name: APP_NAME // Note
+  default_ec2_keyname: null
+  default_platform: Node.js 16 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: default // Note
+  sc: null
+  workspace_type: Application
+```
+
+
+   4. delete `engines` from `package.json`, or make sure you set the correct engine.
+```
+"engines": {
+    "node": "14.15.0"
+  },
+``` 
+
+
+
 ## Common Problems
 
 ### Issue 1: Zip not working
