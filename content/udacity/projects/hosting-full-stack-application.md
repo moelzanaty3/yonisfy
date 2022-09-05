@@ -375,31 +375,34 @@ Create architecture diagrams for an overview of the infrastructure and the pipel
 
 To review the detailed requirements for the project, look at the project [rubric](https://review.udacity.com/#!/rubrics/3070/view).
 
-### Notes if you are using the [Starter code](https://github.com/udacity/nd0067-c4-deployment-process-project-starter)
+**Notes** if you are using the [Starter code](https://github.com/udacity/nd0067-c4-deployment-process-project-starter)
 
-### Frontend 
+### Frontend
 
+1. make sure to change the `apiHost` in the enivronment files to the api link
 
-  1. make sure to change the `apiHost` in the enivronment files to the api link 
- ```
+```typescript
   apiHost: 'http://example.elasticbeanstalk.com/api/v0'
 ```
-  2. if you want to run the test in headless mode, you can use 
-```
+
+2. if you want to run the test in headless mode, you can use
+
+```json
 "test": "ng test --watch=false --browsers ChromeHeadless",
 ```
-### Backend 
 
+### Backend
 
-  1. add these keys to the api config
-```
+1. add these keys to the api config
+
+```typescript
 accessKeyId : process.env.AWS_ACCESS_KEY_ID,
 secretAccessKey : process.env.AWS_SECRET_ACCESS_KEY
 ```
 
+2. make sure to use them in the S3 configuration
 
-  2. make sure to use them in the S3 configuration 
-```
+```typescript
 export const s3 = new AWS.S3({
   signatureVersion: "v4",
   region: config.aws_region,
@@ -411,9 +414,9 @@ export const s3 = new AWS.S3({
 });
 ```
 
+3. use `eb init` to create `.elasticbeanstalk` configuration
 
-   3. use `eb init` to create `.elasticbeanstalk` configuration 
-```
+```yaml
 branch-defaults:
   default:
     environment: ENV_NAME    // Note
@@ -437,15 +440,13 @@ global:
   workspace_type: Application
 ```
 
+4. delete `engines` from `package.json`, or make sure you set the correct engine.
 
-   4. delete `engines` from `package.json`, or make sure you set the correct engine.
-```
+```json
 "engines": {
     "node": "14.15.0"
   },
-``` 
-
-
+```
 
 ## Common Problems
 

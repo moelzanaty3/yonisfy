@@ -145,7 +145,7 @@ export default App
 
 you can check the new code at this state
 
-💎 [4b4a9ecae669f1cb12e0c9a6797e2fe1d490edc8](https://github.com/mohammedelzanaty/react-redux-guide-with-zanaty/commit/4b4a9ecae669f1cb12e0c9a6797e2fe1d490edc8).
+💎 [4b4a9ecae669f1cb12e0c9a6797e2fe1d490edc8](https://github.com/moelzanaty3/react-redux-guide-with-zanaty/commit/4b4a9ecae669f1cb12e0c9a6797e2fe1d490edc8).
 
 Now we have the router working (but still have an issue)! Try navigating to `http://localhost:3000/` and then to `http://localhost:3000/product/1`. Both should work … sort of!
 
@@ -271,4 +271,4 @@ class ProductDetails extends Component {
 
 you can check the new code at this state
 
-💎 [ba46061c9cd24866923cee46fe2880dc896f5754](https://github.com/mohammedelzanaty/react-redux-guide-with-zanaty/commit/ba46061c9cd24866923cee46fe2880dc896f5754).
+💎 [ba46061c9cd24866923cee46fe2880dc896f5754](https://github.com/moelzanaty3/react-redux-guide-with-zanaty/commit/ba46061c9cd24866923cee46fe2880dc896f5754).

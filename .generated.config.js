@@ -4,7 +4,7 @@ module.exports = {
         "short_name": "Yonisfy",
         "description": "mohammed elzanaty",
         "language": "en",
-        "url": "https://mohammedelzanaty.github.io/yonisfy/",
+        "url": "https://moelzanaty3.github.io/yonisfy/",
         "pathPrefix": "/yonisfy",
         "gaTrackingId": null,
         "siteImage": null,
@@ -67,21 +67,21 @@ module.exports = {
     },
     "social": {
         "facebook": "",
-        "github": "https://github.com/mohammedelzanaty",
+        "github": "https://github.com/moelzanaty3",
         "gitlab": "",
         "instagram": "",
-        "linkedin": "https://www.linkedin.com/in/mohammedelzanaty129/",
+        "linkedin": "https://www.linkedin.com/in/moelzanaty3/",
         "mail": "mohammedelzanaty129@gmail.com",
         "gmail": "",
         "slack": "",
         "twich": "",
-        "twitter": "https://twitter.com/mohammdelzanaty",
+        "twitter": "https://twitter.com/moelzanaty3",
         "youtube": "https://www.youtube.com/c/mohammedelzanatyacademy/join"
     },
     "features": {
         "editOnRepo": {
             "editable": true,
-            "location": "https://github.com/mohammedelzanaty/yonisfy",
+            "location": "https://github.com/moelzanaty3/yonisfy",
             "type": "github"
         },
         "search": {

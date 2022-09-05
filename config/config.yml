@@ -3,7 +3,7 @@ metadata:
   short_name: Yonisfy
   description: mohammed elzanaty
   language: en
-  url: 'https://mohammedelzanaty.github.io/yonisfy/'
+  url: 'https://moelzanaty3.github.io/yonisfy/'
   pathPrefix: /yonisfy
   gaTrackingId: null
   favicon: /assets/favicon.ico
@@ -39,15 +39,15 @@ pwa:
     display: minimal-ui
     crossOrigin: anonymous
 social:
-  github: 'https://github.com/mohammedelzanaty'
-  linkedin: 'https://www.linkedin.com/in/mohammedelzanaty129/'
+  github: 'https://github.com/moelzanaty3'
+  linkedin: 'https://www.linkedin.com/in/moelzanaty3/'
   mail: mohammedelzanaty129@gmail.com
-  twitter: 'https://twitter.com/mohammdelzanaty'
+  twitter: 'https://twitter.com/moelzanaty3'
   youtube: 'https://www.youtube.com/c/mohammedelzanatyacademy/join'
 features:
   editOnRepo:
     editable: true
-    location: 'https://github.com/mohammedelzanaty/yonisfy'
+    location: 'https://github.com/moelzanaty3/yonisfy'
     type: github
   rss:
     enabled: false

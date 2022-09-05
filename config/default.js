@@ -55,7 +55,7 @@ module.exports = {
   features: {
     editOnRepo: {
       editable: true,
-      location: "https://github.com/mohammedelzanaty/Yonisfy",
+      location: "https://github.com/moelzanaty3/Yonisfy",
       type: "github",
     },
     search: {
