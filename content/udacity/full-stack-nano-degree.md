@@ -9,10 +9,9 @@ order: 0
 
 <Tip>This is the boat I made with ❤️ love to save you in the Full Stack JS NanoDegree or Advanced Web Development Track as egFwd named it. Now if you ask where I can apply for it to Become a Web Developer Guru <a href="https://egfwd.com/specializtion/advanced-web-development/">here it's</a></Tip>
 
+> 💖 Become a Channel Member: Show support & get perks! 💖 <https://www.youtube.com/c/mohammedelzanatyacademy/join>
 
-> 💖 Become a Channel Member: Show support & get perks! 💖 https://www.youtube.com/c/mohammedelzanatyacademy/join
-
-> 🚀 Join Discord - https://discord.com/invite/amsZty2hkM
+> 🚀 Join Discord - <https://discord.com/invite/amsZty2hkM>
 
 <details>
 
@@ -58,6 +57,12 @@ order: 0
 2️⃣ Read The Guide I made with ❤️ for the project 📜 [Build A Storefront Backend](/udacity/projects/build-store-front-backend)
 
 3️⃣ This project is the hardest one from my opinion that's why I create the heavy lifting for you by creating one of the project module which is JWT Authentication part, u can watch it as short videos 📹 [via this series of videos](https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD) or through one 📹 [video](https://www.youtube.com/watch?v=pMZ0l_cSAw8&list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD&index=20) here's the content of it
+
+⛔ ***Disclaimer**
+
+> Please DO NOT COPY any of the code included in this video into your project submission or you might face a plagiarism case.
+> The purpose of these videos is to serve as a reference for your self-study after our sessions.
+> Please don't misuse the code provided as a way to skip finishing your projects.
 
 <details >
 <summary><strong>▬ 🔗 Chapters ▬▬▬▬▬▬▬▬▬▬</strong></summary>
