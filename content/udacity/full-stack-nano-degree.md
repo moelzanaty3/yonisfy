@@ -58,7 +58,7 @@ order: 0
 
 3️⃣ This project is the hardest one from my opinion that's why I create the heavy lifting for you by creating one of the project module which is JWT Authentication part, u can watch it as short videos 📹 [via this series of videos](https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD) or through one 📹 [video](https://www.youtube.com/watch?v=pMZ0l_cSAw8&list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD&index=20) here's the content of it
 
-⛔ ***Disclaimer**
+⛔ **Disclaimer**
 
 > Please DO NOT COPY any of the code included in this video into your project submission or you might face a plagiarism case.
 > The purpose of these videos is to serve as a reference for your self-study after our sessions.
